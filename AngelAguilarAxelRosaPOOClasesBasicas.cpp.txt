@@ -1,0 +1,62 @@
+/*Angel Aguilar Salazar y Henrik Axel de la Rosa
+POO clases basicos
+2023 sep 27, 29
+
+https://youtu.be/wN0x9eZLix4?si=tyfqLWzy9HrWZDdd
+
+
+Codigo original*/
+
+#include <bits/stdc++.h>
+using namespace std;
+//primera clase en c++
+//primera clase en c++
+class Empleado{
+	public:
+		//atributos
+		string Nombre;
+		string Compania;
+		int Edad;
+		
+		//metodo
+		void presentarse(){
+			cout<<"Nombre: "<<Nombre<<endl;
+			cout<<<"Compania: "<<Compania<<endl;
+			cout<<"Edad: "<<Edad<<endl;
+		}
+		
+		/*
+		Constructor:
+		-No tiene tipo de retorno
+		-Debellamarse IGUAL A CLASE
+		-Debe ser PUBLICO (no siempre necesariamente)
+		Si no se fija un constructor explicitamente, C++ trabaja
+		con uno por defulat (contiene basura si es indefinido)
+		*/
+		Empleado(string nombre, string compania, int edad){
+			Nombre = nombre;
+			Compania = compania;
+			Edad = edad;
+		}
+};
+	
+	/*
+	Existen 3 modificadores de acceso:
+	-Private
+	-Public
+	-Protected
+	*/
+	
+int main(){
+	//atributos
+	//Empleado empleado:
+	//empleado1.Nombre = 
+	//empleado1.Compania = 
+	//empleado.Edad = 
+	Empleado empleado1 = Empleado("Angel","UP",19); //mucho mas eficaz
+	
+	//llamada a metodo de la clase:
+	empleado1.presentarse();
+	
+	return 0;
+}
