@@ -1,6 +1,8 @@
 /*Angel Aguilar y Axel Roa
 2023 oct 4
 
+CAMBIO REALIZADO
+
 Ejercicio:
 Realizar un programa de libre eleccion relativo a POO con las siguientes caracteristicas:
 - Que cuente con una clase abstracta.
